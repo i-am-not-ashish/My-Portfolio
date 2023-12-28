@@ -99,9 +99,9 @@ const Footer = () => {
         </MDBContainer>
 
         <div className='text-center text-dark p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-          © 2020 Copyright:
-          <a className='text-dark' href='https://mdbootstrap.com/'>
-            MDBootstrap.com
+          © 2024 Copyright: 
+          <a className='text-dark' href=' https://i-am-not-ashish.github.io/My-Portfolio/'>
+             Portfolio-Ashish Kumar
           </a>
         </div>
       </MDBFooter>
