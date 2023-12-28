@@ -1,0 +1,50 @@
+.blk:hover {
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+      }
+      
+
+.animo {
+        animation: slideRight 10s linear infinite;
+}
+
+@keyframes slideRight {
+        0% {
+                transform: translateX(0);
+        }
+
+        50% {
+                transform: translateX(5px);
+                /* Adjust the distance the image moves */
+        }
+
+        100% {
+                transform: translateX(0);
+        }
+}
+
+/* .blk {
+        animation: bounce 20s ease infinite;
+}
+
+@keyframes bounce {
+
+        0%,
+        20%,
+        50%,
+        80%,
+        100% {
+                transform: translateY(0);
+        }
+
+        40% {
+                transform: translateY(-10px);
+        }
+
+        60% {
+                transform: translateY(-5px);
+        }
+} */

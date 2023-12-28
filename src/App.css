@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+}
+body{
+  padding-top: 30px;
+  background-image: url('./assets//images/wp2757874-wallpaper-gif.gif');
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}

@@ -1,0 +1,21 @@
+.animate {
+    animation: slideRight 30s linear infinite;
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(20px);
+        /* Adjust the distance the image moves */
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+  
