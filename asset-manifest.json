@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.86a38cea.css",
+    "main.js": "/My-Portfolio/static/js/main.7eab4c0a.js",
+    "static/media/python-certificate.jpg": "/My-Portfolio/static/media/python-certificate.3035bf4cd330bb01dffc.jpg",
+    "static/media/version-control-certificate.jpg": "/My-Portfolio/static/media/version-control-certificate.34eb041c4fc0636ab564.jpg",
+    "static/media/react-native-certificate.jpg": "/My-Portfolio/static/media/react-native-certificate.9cb854f7ac9456b5fcbb.jpg",
+    "static/media/react-certificate.jpg": "/My-Portfolio/static/media/react-certificate.91628ef1a9621baafd84.jpg",
+    "static/media/wp2757874-wallpaper-gif.gif": "/My-Portfolio/static/media/wp2757874-wallpaper-gif.c4cf35544f0c12ba383d.gif",
+    "static/media/Matplotlib.png": "/My-Portfolio/static/media/Matplotlib.108848d4569ad2010a41.png",
+    "static/media/Group 1.png": "/My-Portfolio/static/media/Group 1.9e9ee9960d5d6b6354b5.png",
+    "static/media/react-js.png": "/My-Portfolio/static/media/react-js.3418d3681c93c8de7704.png",
+    "static/media/conversation.png": "/My-Portfolio/static/media/conversation.0b65d6291ef745ae6bc3.png",
+    "static/media/mongodb.png": "/My-Portfolio/static/media/mongodb.84dbdc1201d636405f39.png",
+    "static/media/react-native.png": "/My-Portfolio/static/media/react-native.910a1a9d068d2a32d790.png",
+    "static/media/mysql.png": "/My-Portfolio/static/media/mysql.670cfd2492a6c1e5ef4f.png",
+    "static/media/sql.png": "/My-Portfolio/static/media/sql.ff9adbf63f134daccd26.png",
+    "static/media/express-js.png": "/My-Portfolio/static/media/express-js.e8ec3caa8847fe10e309.png",
+    "static/media/python.png": "/My-Portfolio/static/media/python.472144b73d9ddca9c823.png",
+    "static/media/matlab.png": "/My-Portfolio/static/media/matlab.2cbde2ff8f18e3cd623a.png",
+    "static/media/java.png": "/My-Portfolio/static/media/java.7465d2c6803884135ced.png",
+    "static/media/leadership.png": "/My-Portfolio/static/media/leadership.4d5301e0f6ab93473e99.png",
+    "static/media/visual-studio.png": "/My-Portfolio/static/media/visual-studio.63a5854565c4e519e6ed.png",
+    "static/media/arduino.png": "/My-Portfolio/static/media/arduino.00fac7b0597830d8fd43.png",
+    "index.html": "/My-Portfolio/index.html",
+    "main.86a38cea.css.map": "/My-Portfolio/static/css/main.86a38cea.css.map",
+    "main.7eab4c0a.js.map": "/My-Portfolio/static/js/main.7eab4c0a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86a38cea.css",
+    "static/js/main.7eab4c0a.js"
+  ]
+}
