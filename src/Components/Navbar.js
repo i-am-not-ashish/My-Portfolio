@@ -8,7 +8,7 @@ const Navbar = () => {
     <div style={{marginTop:0 }}>
       <nav className="navbar navbar-expand-lg navbar-light " style={{backgroundColor:"#bababa",borderRadius:"10px"}}>
         <div className="container-fluid">
-          <Link className="navbar-brand me-2" to="https://mdbgo.com/">
+          <Link className="navbar-brand me-2" to="https://www.linkedin.com/in/ashish-kumar-65b12b233">
             <img
               src={photo}
               height="50"
