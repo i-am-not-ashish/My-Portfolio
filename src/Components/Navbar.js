@@ -20,11 +20,12 @@ const Navbar = () => {
           </Link>
           <button
 
-            className="navbar-toggler text-light py-2"
-            data-mdb-collapse-init
+            className="navbar-toggler text-light py-2 "
+            data-mdb-collapse-init 
+            style={{border:"1px solid white"}}
             type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
           >
-            <i className="fas fa-bars"></i>
+            <i className="fas fa-bars fa-2x "></i>
           </button>
           <div
             className="collapse navbar-collapse justify-content-center"
