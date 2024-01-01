@@ -1,10 +1,183 @@
 .App {
   text-align: center;
 }
-body{
-  padding-top: 30px;
-  background-image: url('./assets//images/wp2757874-wallpaper-gif.gif');
+
+body {
+  background-image: linear-gradient(0deg, #0051d0, #991c8b);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   padding-bottom: 20px;
   padding-left: 5px;
   padding-right: 5px;
+  animation: lineartoRadial 10s ease infinite;
+}
+
+@keyframes lineartoRadial {
+
+  0%,
+  100% {
+    background-image: linear-gradient(0deg, #0051d0, #991c8b)
+  }
+
+  2.5% {
+    background-image: linear-gradient(9deg, #0051d0, #991c8b)
+  }
+
+  5% {
+    background-image: linear-gradient(18deg, #0051d0, #991c8b)
+  }
+
+  7.5% {
+    background-image: linear-gradient(27deg, #0051d0, #991c8b)
+  }
+
+  10% {
+    background-image: linear-gradient(36deg, #0051d0, #991c8b)
+  }
+
+  12.5% {
+    background-image: linear-gradient(45deg, #0051d0, #991c8b)
+  }
+
+  15% {
+    background-image: linear-gradient(54deg, #0051d0, #991c8b)
+  }
+
+  17.5% {
+    background-image: linear-gradient(63deg, #0051d0, #991c8b)
+  }
+
+  20% {
+    background-image: linear-gradient(72deg, #0051d0, #991c8b)
+  }
+
+  22.5% {
+    background-image: linear-gradient(81deg, #0051d0, #991c8b)
+  }
+
+  25% {
+    background-image: linear-gradient(90deg, #0051d0, #991c8b)
+  }
+
+  27.5% {
+    background-image: linear-gradient(99deg, #0051d0, #991c8b)
+  }
+
+  30% {
+    background-image: linear-gradient(108deg, #0051d0, #991c8b)
+  }
+
+  32.5% {
+    background-image: linear-gradient(117deg, #0051d0, #991c8b)
+  }
+
+  35% {
+    background-image: linear-gradient(126deg, #0051d0, #991c8b)
+  }
+
+  37.5% {
+    background-image: linear-gradient(135deg, #0051d0, #991c8b)
+  }
+
+  40% {
+    background-image: linear-gradient(144deg, #0051d0, #991c8b)
+  }
+
+  42.5% {
+    background-image: linear-gradient(153deg, #0051d0, #991c8b)
+  }
+
+  45% {
+    background-image: linear-gradient(162deg, #0051d0, #991c8b)
+  }
+
+  47.5% {
+    background-image: linear-gradient(171deg, #0051d0, #991c8b)
+  }
+
+  50% {
+    background-image: linear-gradient(180deg, #0051d0, #991c8b)
+  }
+
+  52.5% {
+    background-image: linear-gradient(189deg, #0051d0, #991c8b)
+  }
+
+  55% {
+    background-image: linear-gradient(198deg, #0051d0, #991c8b)
+  }
+
+  57.5% {
+    background-image: linear-gradient(207deg, #0051d0, #991c8b)
+  }
+
+  60% {
+    background-image: linear-gradient(216deg, #0051d0, #991c8b)
+  }
+
+  62.5% {
+    background-image: linear-gradient(225deg, #0051d0, #991c8b)
+  }
+
+  65% {
+    background-image: linear-gradient(234deg, #0051d0, #991c8b)
+  }
+
+  67.5% {
+    background-image: linear-gradient(243deg, #0051d0, #991c8b)
+  }
+
+  70% {
+    background-image: linear-gradient(252deg, #0051d0, #991c8b)
+  }
+
+  72.5% {
+    background-image: linear-gradient(261deg, #0051d0, #991c8b)
+  }
+
+  75% {
+    background-image: linear-gradient(270deg, #0051d0, #991c8b)
+  }
+
+  77.5% {
+    background-image: linear-gradient(279deg, #0051d0, #991c8b)
+  }
+
+  80% {
+    background-image: linear-gradient(288deg, #0051d0, #991c8b)
+  }
+
+  82.5% {
+    background-image: linear-gradient(297deg, #0051d0, #991c8b)
+  }
+
+  85% {
+    background-image: linear-gradient(306deg, #0051d0, #991c8b)
+  }
+
+  87.5% {
+    background-image: linear-gradient(315deg, #0051d0, #991c8b)
+  }
+
+  90% {
+    background-image: linear-gradient(324deg, #0051d0, #991c8b)
+  }
+
+  92.5% {
+    background-image: linear-gradient(333deg, #0051d0, #991c8b)
+  }
+
+  95% {
+    background-image: linear-gradient(342deg, #0051d0, #991c8b)
+  }
+
+  97.5% {
+    background-image: linear-gradient(351deg, #0051d0, #991c8b)
+  }
+
+  /* 100%{
+   background-image: linear-gradient(360deg,#0051d0,#991c8b)
+  } */
+
 }

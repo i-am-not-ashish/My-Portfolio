@@ -1,48 +1,46 @@
 import React from 'react'
-import photo from '../assets/images/wp2757874-wallpaper-gif.gif'
 import './about.css'
 import resume from '../assets/images/cv.png'
 const About = () => {
-  const Style3={
+  const Style3 = {
     width: '14rem',
-    backgroundColor:'rgba(23,24,32,0)',
-    color:'white',
+    backgroundColor: 'rgba(23,24,32,0)',
+    color: 'white',
   }
-  const Style4={
-    justifyContent: "center", 
-    alignItems: "center", 
+  const Style4 = {
+    justifyContent: "center",
+    alignItems: "center",
     display: "flex"
   }
-  const Style5={
+  const Style5 = {
     fontFamily: "PT Serif",
-    backgroundColor:"#ababab",
-    color:"white",
-    border:"1px solid black",
-    borderRadius:"2px",
-    boxShadow:"2px 4px #888888",
-    textShadow:'1px 2px solid' 
+    border: "white 2px solid",
+    color: "white",
+    boxShadow: "3px 5px wheat",
+    textShadow: '1px 2px solid white'
   }
-  const Style6={
+  const Style6 = {
     textAlign: 'justify',
-    fontFamily:'"Zilla Slab",sans serif',
-    height:"32px"
+    fontFamily: '"Zilla Slab",sans serif',
+    height: "32px"
   }
-  const Style7={
-    backgroundColor: 'black',
-    fontFamily:"PT Serif"
+  const Style7 = {
+    fontFamily: "PT Serif",
+    background: "rgba(red,blue,green,0)",
+    color: "white"
   }
 
   return (
-    <div style={{ backgroundImage: `url(${photo})`, paddingLeft: "20px", paddingRight: "20px", paddingTop: "30px", textAlign: 'justify', color: "whitesmoke" }}>
+    <div style={{ paddingLeft: "20px", paddingRight: "20px", paddingTop: "30px", textAlign: 'justify', color: "whitesmoke" }}>
       <h1 style={{ fontFamily: 'Rubik Doodle Shadow,serif', fontSize: "70px", textAlign: 'left', }} className='animated-text'>I'm Ashish Kumar</h1>
       <p style={{ fontFamily: "Bitter", fontSize: "30px" }} className='animated-text2'> A driven and inquisitive student currently pursuing a Bachelor of Technology in Electronics and Instrumentation Engineering at the National Institute of Technology, Agartala. Originally from Meerut, Uttar Pradesh, my educational journey has taken me to new horizons.</p><br />
       <div className="card px-1" style={Style3}>
-        <div style={Style4}><img src={resume} className="card-img-top" alt="..."/></div>
-          <div className="card-body">
-            <h5 className="card-title px-3" style={Style5}>Resume</h5>
-            <p className="card-text" style={Style6}>Download my Resume from here...</p>
-            <a href="https://drive.google.com/file/d/1vtVPIrB1YKFAGiYeFpN6Mha-m7yagprq/view?usp=drive_link" className="btn btn-primary border-white blk" target='_blank' rel="noreferrer" style={Style7}>Download</a>
-          </div>
+        <div style={Style4}><img src={resume} className="card-img-top" alt="..." /></div>
+        <div className="card-body">
+          <h5 className="card-title px-3 rounded" style={Style5}>Resume</h5>
+          <p className="card-text" style={Style6}>Download my Resume from here...</p>
+          <a href="https://drive.google.com/file/d/1vtVPIrB1YKFAGiYeFpN6Mha-m7yagprq/view?usp=drive_link" className="btn border-white blk" target='_blank' rel="noreferrer" style={Style7}>Download</a>
+        </div>
       </div>
       <h3 style={{ fontFamily: 'Roboto Slab', fontSize: "40px", textAlign: 'left', }} className='animated-text'>Academic Background:</h3>
       <ul>

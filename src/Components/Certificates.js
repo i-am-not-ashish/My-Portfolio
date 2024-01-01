@@ -5,44 +5,73 @@ import reactNative from '../assets/images/react-native-certificate.jpg'
 import vc from '../assets/images/version-control-certificate.jpg'
 
 const Certificates = () => {
-  const Style={
-    backgroundColor: 'black',
-    fontFamily:"PT Serif"
+  const Style2 = {
+    marginLeft: "5vw",
+    marginRight: '5vw'
   }
-  const Style2={
+  const Style3 = {
+    width: '36rem',
+    backgroundColor: 'rgba(23,24,32,0)',
+    color: 'white',
+  }
+  const Style4 = {
+    justifyContent: "center",
+    alignItems: "center",
+    display: "flex"
+  }
+  const Style5 = {
     fontFamily: "PT Serif",
-    color:"black",
-    boxShadow:"2px 4px #888888",
-    textShadow:'1px 2px solid' 
+    border: "white 2px solid",
+    color: "white",
+    boxShadow: "3px 5px wheat",
+    textShadow: '1px 2px solid white'
+  }
+
+  const Style6 = {
+    backgroundColor: 'rgba(0,0,0,0)',
+    fontFamily: "PT Serif",
+    color: "white"
   }
   return (
     <div >
-      <div className="card my-3 " style={{"width":"36rem",marginLeft:"20px"}}>
-        <img src={python} className="card-img-top" alt="..." />
-        <div className="card-body">
-        <h4 className="card-title px-2 py-1 border-black rounded border-bottom" style={Style2}>Python</h4>
-          <a href="https://coursera.org/verify/P5A6BAG4RY3A" className="btn btn-primary border-white blk" target='_blank' rel="noreferrer" style={Style}>View Certificate</a>
+      <div className='row py-3' style={Style2}>
+        <div className='col'>
+          <div className="card my-3 " style={Style3}>
+            <div style={Style4}><img src={python} className="card-img-top" alt="Python" style={{ width: "300px" }} /></div>
+            <div className="card-body">
+              <h4 className="card-title px-2 py-1 rounded" style={Style5}>Python</h4>
+              <a href="https://coursera.org/verify/P5A6BAG4RY3A" className="btn border-white blk" target='_blank' rel="noreferrer" style={Style6}>View Certificate</a>
+            </div>
+          </div>
+        </div>
+        <div className='col'>
+          <div className="card my-3" style={Style3}>
+            <div style={Style4}><img src={react} className="card-img-top" alt="React" style={{ width: "300px" }} /></div>
+            <div className="card-body">
+              <h4 className="card-title px-2 py-1 rounded" style={Style5}>React JS</h4>
+              <a href="https://coursera.org/verify/FRMZKTJKASJM" className="btn border-white blk" target='_blank' rel="noreferrer" style={Style6}>View Certificate</a>
+            </div>
+          </div>
         </div>
       </div>
-      <div className="card my-3" style={{"width":"36rem",marginLeft:"120px"}}>
-        <img src={react} className="card-img-top" alt="..." />
-        <div className="card-body">
-        <h4 className="card-title px-2 py-1 border-black rounded border-bottom" style={Style2}>React JS</h4>
-          <a href="https://coursera.org/verify/FRMZKTJKASJM" className="btn btn-primary border-white blk" target='_blank' rel="noreferrer" style={Style}>View Certificate</a>
+      <div className='row' style={Style2}>
+        <div className='col'>
+          <div className="card my-2" style={Style3}>
+            <div style={Style4}><img src={reactNative} className="card-img-top" alt="React-Native" style={{ width: "300px" }} /></div>
+            <div className="card-body">
+              <h4 className="card-title px-2 py-1 rounded" style={Style5}>React Native</h4>
+              <a href="https://coursera.org/verify/ZPVN78EXSHA7" className="btn border-white blk" target='_blank' rel="noreferrer" style={Style6}>View Certificate</a>
+            </div>
+          </div>
         </div>
-      </div>
-      <div className="card my-2" style={{"width":"36rem",marginLeft:"20px"}}>
-        <img src={reactNative} className="card-img-top" alt="..." />
-        <div className="card-body">
-        <h4 className="card-title px-2 py-1 border-black rounded border-bottom" style={Style2}>React Native</h4>
-          <a href="https://coursera.org/verify/ZPVN78EXSHA7" className="btn btn-primary border-white blk" target='_blank' rel="noreferrer" style={Style}>View Certificate</a>
-        </div>
-      </div>
-      <div className="card my-2" style={{"width":"36rem",marginLeft:"120px"}}>
-        <img src={vc} className="card-img-top" alt="..." />
-        <div className="card-body">
-        <h4 className="card-title px-2 py-1 border-black rounded border-bottom" style={Style2}>Version Control</h4>
-          <a href="https://coursera.org/verify/KKU6WW5XUL62" className="btn btn-primary border-white blk" target='_blank' rel="noreferrer" style={Style}>View Certificate</a>
+        <div className='col'>
+          <div className="card my-2" style={Style3}>
+            <div style={Style4}><img src={vc} className="card-img-top" alt="Version Control" style={{ width: "300px" }} /></div>
+            <div className="card-body">
+              <h4 className="card-title px-2 py-1 rounded" style={Style5}>Version Control</h4>
+              <a href="https://coursera.org/verify/KKU6WW5XUL62" className="btn border-white blk" target='_blank' rel="noreferrer" style={Style6}>View Certificate</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

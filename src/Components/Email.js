@@ -34,12 +34,7 @@ const Email = () => {
           <textarea className="form-control my-1" placeholder="Your Message" id="floatingTextarea2" style={{ height: "100px" }} name='message'></textarea>
           <label for="floatingTextarea2">Your Message</label>
         </div>
-        {/* <label>Email</label>
-   <input type="email" name="email" /> */}
-        {/* <label>Message</label>
-   <textarea name="message" /> */}
-        {/* <input type="submit" value="Send" /> */}
-        <div className='d-md-flex justify-content-md-center' ><button type="submit" className="btn btn-secondary my-2 justify-content-center" value="Send"style={{width:"300px"}} >Send</button></div>
+        <div className='d-flex justify-content-center' ><button type="submit" className="btn my-2 blk" value="Send"style={{width:"300px",color:"white",border:"whitesmoke 1px solid"}} >Send</button></div>
       </form>
     </div>
   )

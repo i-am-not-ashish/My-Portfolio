@@ -36,13 +36,14 @@ const Skills = () => {
     margin: 0
   }
   const Style2 = {
-    backgroundColor: 'grey',
+    backgroundImage: "radial-gradient(0deg,#004bba,#911f87)",
     color: "white",
     height: "40px",
     lineHeight: "40px",
     fontFamily: "Roboto Slab",
     fontSize: "25px",
-    borderRadius: "10px ",
+    border: "white 2px solid",
+    borderRadius: "8px ",
     marginBottom: "10px",
     paddingLeft: "30px",
     marginTop: "2px"

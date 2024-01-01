@@ -1,19 +1,22 @@
-.Map{
- font-family: sans-serif;
- text-align: center;
+.Map {
+    font-family: sans-serif;
+    text-align: center;
 }
-*{
- box-sizing: border-box;
- margin: 0;
- padding: 0;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-#root{
- height: 100vh;
+
+#root {
+    height: 100vh;
 }
-.leaflet-container{
- height: 900px;
- width: 1200px;
- border: 2px solid black;
- border-radius: 5px;
- margin: 20px;
+
+.leaflet-container {
+    height: 900px;
+    width: 1200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 20px;
 }

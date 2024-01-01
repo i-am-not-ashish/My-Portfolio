@@ -10,7 +10,6 @@
 
     50% {
         transform: translateX(40px);
-        /* Adjust the distance the image moves */
     }
 
     100% {
