@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <div className='m-0 p-0 ' style={myStyle}>
       <h1 style={{paddingTop:"30vh",fontSize :"92px",fontFamily:"Rubik Maps"}} className='animated-text3'>Ashish Kumar</h1>
-      <h2 style={{fontSize:"90px",fontFamily:"'Tangerine', serif"}} className='animated-text4'>Portfolio</h2>
+      <h2 style={{fontSize:"90px",fontFamily:"'Tangerine', serif"}} className='animated-text4 blk2'>Portfolio</h2>
     </div>
   )
 }

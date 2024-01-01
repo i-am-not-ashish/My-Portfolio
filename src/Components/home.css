@@ -1,11 +1,11 @@
 .animated-text3 {
     overflow: hidden;
     white-space: nowrap;
-    animation: typing 4s steps(50) infinite;
+    animation: typing 6s steps(200) infinite;
   }
   @keyframes typing {
     from {
-      width: 0;
+      width: 0%;
     }
     to {
       width: 100%;
@@ -23,4 +23,24 @@
       opacity: 1;
     }
   }
+  .blk2 {
+    animation: bounce 5s ease infinite;
+}
+
+@keyframes bounce {
+
+    0%,
+    50%,
+    100% {
+            transform: translateY(0);
+    }
+
+    25% {
+            transform: translateY(-10px);
+    }
+
+    75% {
+            transform: translateY(10px);
+    }
+}
     
