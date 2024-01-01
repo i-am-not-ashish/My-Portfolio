@@ -11,7 +11,7 @@ const Navbar = () => {
           <Link className="navbar-brand me-2" to="https://www.linkedin.com/in/ashish-kumar-65b12b233">
             <img
               src={photo}
-              height="200px"
+              height="100px"
               alt="MDB Logo"
               loading="lazy"
               style={{ marginTop: '-1px' }}
