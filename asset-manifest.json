@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/My-Portfolio/static/css/main.aa940d55.css",
-    "main.js": "/My-Portfolio/static/js/main.0e1252ea.js",
+    "main.js": "/My-Portfolio/static/js/main.5265c89f.js",
     "static/media/python-certificate.jpg": "/My-Portfolio/static/media/python-certificate.3035bf4cd330bb01dffc.jpg",
     "static/media/version-control-certificate.jpg": "/My-Portfolio/static/media/version-control-certificate.34eb041c4fc0636ab564.jpg",
     "static/media/react-native-certificate.jpg": "/My-Portfolio/static/media/react-native-certificate.9cb854f7ac9456b5fcbb.jpg",
@@ -23,10 +23,10 @@
     "static/media/arduino.png": "/My-Portfolio/static/media/arduino.00fac7b0597830d8fd43.png",
     "index.html": "/My-Portfolio/index.html",
     "main.aa940d55.css.map": "/My-Portfolio/static/css/main.aa940d55.css.map",
-    "main.0e1252ea.js.map": "/My-Portfolio/static/js/main.0e1252ea.js.map"
+    "main.5265c89f.js.map": "/My-Portfolio/static/js/main.5265c89f.js.map"
   },
   "entrypoints": [
     "static/css/main.aa940d55.css",
-    "static/js/main.0e1252ea.js"
+    "static/js/main.5265c89f.js"
   ]
 }
