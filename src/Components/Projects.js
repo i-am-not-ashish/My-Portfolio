@@ -4,11 +4,12 @@ import coding from '../assets/images/web.png'
 import "./project.css"
 const Projects = () => {
   const Style2 = {
-    marginLeft: "5vw",
-    marginRight: '5vw'
+    display:"flex",
+    justifyContent:"center",
+    alignItems:"center"
   }
   const Style3 = {
-    width: '36rem',
+    width: '33rem',
     backgroundColor: 'rgba(23,24,32,0)',
     color: 'white',
   }
@@ -21,6 +22,7 @@ const Projects = () => {
     fontFamily: "PT Serif",
     border: "white 2px solid",
     color: "white",
+    fontSize:"23px",
     boxShadow: "3px 5px wheat",
     textShadow: '1px 2px solid white'
   }
@@ -41,7 +43,7 @@ const Projects = () => {
     lineHeight: "75px",
     fontFamily: "Roboto Slab",
     fontSize: "30px",
-    border: "white 2px solid",
+    border: "white 4px solid",
     borderRadius: "10px ",
     marginTop: "2px"
 
@@ -49,8 +51,8 @@ const Projects = () => {
   return (
     <div >
       <div style={Style8}>Departmental Projects</div>
-      <div className="row py-3" style={Style2}>
-        <div className="col ">
+      <div className="row " style={Style2}>
+        <div className="col py-3 " style={{marginLeft:"5rem",marginRight:"5rem"}}>
           <div className="card px-2" style={Style3}>
             <div style={Style4}>
               <img src={core} className="card-img-top to-img" style={{ width: "256px" }} alt="Home Automation" />
@@ -62,7 +64,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="col">
+        <div className="col py-3"style={{marginLeft:"5rem",marginRight:"5rem"}}>
           <div className="card px-2" style={Style3}>
             <div style={Style4}>
               <img src={core} className="card-img-top to-img" style={{ width: "256px" }} alt="Light Intensity Detection System" />
@@ -75,8 +77,8 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div className="row py-3" style={Style2}>
-        <div className="col">
+      <div className="row " style={Style2}>
+        <div className="col py-3" style={{marginLeft:"5rem",marginRight:"5rem"}}>
           <div className="card px-2" style={Style3}>
             <div style={Style4}>
               <img src={core} className="card-img-top to-img" style={{ width: "256px" }} alt="Fire Alarm" />
@@ -88,7 +90,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="col">
+        <div className="col py-3" style={{marginLeft:"5rem",marginRight:"5rem"}}>
           <div className="card px-2" style={Style3}>
             <div style={Style4}>
               <img src={core} className="card-img-top to-img" style={{ width: "256px" }} alt="DC Motor Speed and Direction Control" />
@@ -102,8 +104,8 @@ const Projects = () => {
         </div>
       </div>
       <div style={Style8}>Personal Projects</div>
-      <div className="row py-3" style={Style2}>
-        <div className="col">
+      <div className="row " style={Style2}>
+        <div className="col py-3"style={{marginLeft:"5rem",marginRight:"5rem"}}>
           <div className="card px-2" style={Style3}>
             <div style={Style4}>
               <img src={coding} className="card-img-top to-img" style={{ width: "256px" }} alt="News Cat" />
@@ -115,7 +117,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="col" >
+        <div className="col py-3" style={{marginLeft:"5rem",marginRight:"5rem"}}>
           <div className="card px-2" style={Style3}>
             <div style={Style4}>
               <img src={coding} className="card-img-top to-img" style={{ width: "256px" }} alt="Text-Utils" />

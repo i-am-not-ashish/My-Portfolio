@@ -6,11 +6,12 @@ import vc from '../assets/images/version-control-certificate.jpg'
 
 const Certificates = () => {
   const Style2 = {
-    marginLeft: "5vw",
-    marginRight: '5vw'
+    display:"flex",
+    justifyContent:"center",
+    alignItems:"center"
   }
   const Style3 = {
-    width: '36rem',
+    width: '33rem',
     backgroundColor: 'rgba(23,24,32,0)',
     color: 'white',
   }
@@ -35,7 +36,7 @@ const Certificates = () => {
   return (
     <div >
       <div className='row py-3' style={Style2}>
-        <div className='col'>
+        <div className='col my-3'style={{marginLeft:"5rem",marginRight:"5rem"}}>
           <div className="card my-3 " style={Style3}>
             <div style={Style4}><img src={python} className="card-img-top" alt="Python" style={{ width: "300px" }} /></div>
             <div className="card-body">
@@ -44,7 +45,7 @@ const Certificates = () => {
             </div>
           </div>
         </div>
-        <div className='col'>
+        <div className='col my-3'style={{marginLeft:"5rem",marginRight:"5rem"}}>
           <div className="card my-3" style={Style3}>
             <div style={Style4}><img src={react} className="card-img-top" alt="React" style={{ width: "300px" }} /></div>
             <div className="card-body">
@@ -55,7 +56,7 @@ const Certificates = () => {
         </div>
       </div>
       <div className='row' style={Style2}>
-        <div className='col'>
+        <div className='col my-3'style={{marginLeft:"5rem",marginRight:"5rem"}}>
           <div className="card my-2" style={Style3}>
             <div style={Style4}><img src={reactNative} className="card-img-top" alt="React-Native" style={{ width: "300px" }} /></div>
             <div className="card-body">
@@ -64,7 +65,7 @@ const Certificates = () => {
             </div>
           </div>
         </div>
-        <div className='col'>
+        <div className='col my-3'style={{marginLeft:"5rem",marginRight:"5rem"}}>
           <div className="card my-2" style={Style3}>
             <div style={Style4}><img src={vc} className="card-img-top" alt="Version Control" style={{ width: "300px" }} /></div>
             <div className="card-body">
